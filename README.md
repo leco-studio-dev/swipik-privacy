@@ -1,5 +1,7 @@
 # SwiPik privacy site
 
-This is a static, no-JavaScript site. Publish the contents of this directory as the root of a new GitHub Pages repository (for example by committing these files to that repository and enabling Pages from the selected branch/root). Confirm HTTPS works for `/`, `/en/`, `/ko/`, `/ja/`, `/zh-CN/`, and `/zh-TW/`.
+This is the source for the static, no-JavaScript privacy site. It is published from the [`leco-studio-dev/swipik-privacy`](https://github.com/leco-studio-dev/swipik-privacy) repository at [https://leco-studio-dev.github.io/swipik-privacy/](https://leco-studio-dev.github.io/swipik-privacy/).
 
-Only after the Pages URL is publicly verified should `PRIVACY_POLICY_URL` in the Android Settings screen be changed. Do not point the app to an unverified or unauthenticated GitHub account.
+The existing [https://choi32013.github.io/swipik-privacy/](https://choi32013.github.io/swipik-privacy/) policy URL remains a documented compatibility URL. Keep it available; do not redirect or remove it.
+
+The live HTTPS pages are `/`, `/en/`, `/ko/`, `/ja/`, `/zh-CN/`, and `/zh-TW/`. Android Settings uses the same host and selects the matching locale page, falling back to `/en/` for unsupported locales.
